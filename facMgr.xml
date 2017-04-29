@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FacMgr>
+    
+    <Facility Id="1">
+        <Name>Seattle</Name>
+        <Rate>300</Rate>
+        <rtd>8</rtd>
+        <Links>
+            <City>Fargo, ND</City>
+            <Distance>1426</Distance>
+        </Links>
+        <Links>
+            <City>San Francisco, CA</City>
+            <Distance>888</Distance>
+        </Links>
+        <InvItem>
+        	<id>ABC123</id>
+        	<qty>45</qty>
+        </InvItem>
+        <InvItem>
+        	<id>JBL3100</id>
+        	<qty>52</qty>
+        </InvItem>
+        <InvItem>
+        	<id>PL123-C</id>
+        	<qty>54</qty>
+        </InvItem>
+        <InvItem>
+        	<id>PU238</id>
+        	<qty>60</qty>
+        </InvItem>
+    </Facility>
+    <Facility Id="2">
+        <Name>San Francisco, CA</Name>
+        <Rate>300</Rate>
+        <rtd>12</rtd>
+        <Links>
+            <City>Denver, CO</City>
+            <Distance>1249</Distance>
+        </Links>
+        <Links>
+            <City>Seattle, WA</City>
+            <Distance>888</Distance>
+        </Links>
+        <Links>
+            <City>Los Angeles, CA</City>
+            <Distance>382</Distance>
+        </Links>
+        <InvItem>
+        	<id>RL123A</id>
+        	<qty>40</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XLK200B</id>
+        	<qty>8</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SR71-D</id>
+        	<qty>81</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CT1928</id>
+        	<qty>46</qty>
+        </InvItem>
+    </Facility>
+    <Facility Id="3">
+        <Name>Los Angeles, CA</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Phoenix</City>
+            <Distance>372</Distance>
+        </Links>
+        <Links>
+            <City>San Francisco, CA</City>
+            <Distance>382</Distance>
+        </Links>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>57</qty>
+        </InvItem>
+        <InvItem>
+        	<id>JBL3100</id>
+        	<qty>60</qty>
+        </InvItem>
+        <InvItem>
+        	<id>E241i-C</id>
+        	<qty>44</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CT1928</id>
+        	<qty>32</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="4">
+        <Name>Phoenix, AZ</Name>
+        <Rate>300</Rate>
+        <rtd>8</rtd>
+        <Links>
+            <City>Los Angeles, CA</City>
+            <Distance>372</Distance>
+        </Links>
+        <Links>
+            <City>Santa Fe, NM</City>
+            <Distance>480</Distance>
+        </Links>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>18</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SR71-D</id>
+        	<qty>55</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SN-241_L-C</id>
+        	<qty>22</qty>
+        </InvItem>
+        <InvItem>
+        	<id>ZTF108</id>
+        	<qty>54</qty>
+        </InvItem>
+    </Facility>    
+	<Facility Id="5">
+        <Name>Denver, CO</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Santa Fe, NM</City>
+            <Distance>392</Distance>
+        </Links>
+        <Links>
+            <City>San Francisco, CA</City>
+            <Distance>1249</Distance>
+        </Links>
+        <Links>
+            <City>Fargo, ND</City>
+            <Distance>889</Distance>
+        </Links>
+        <Links>
+            <City>St. Louis, MD</City>
+            <Distance>851</Distance>
+        </Links>
+        <InvItem>
+        	<id>ABC123</id>
+        	<qty>80</qty>
+        </InvItem>
+        <InvItem>
+        	<id>RL123A</id>
+        	<qty>110</qty>
+        </InvItem>
+        <InvItem>
+        	<id>RTF110-C</id>
+        	<qty>100</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="6">
+        <Name>Santa Fe, NM</Name>
+        <Rate>300</Rate>
+        <rtd>8</rtd>
+        <Links>
+            <City>Denver, CO</City>
+            <Distance>392</Distance>
+        </Links>
+        <Links>
+            <City>Phoenix, AZ</City>
+            <Distance>480</Distance>
+        </Links>
+        <Links>
+            <City>St. Louis, MO</City>
+            <Distance>1032</Distance>
+        </Links>
+        <Links>
+            <City>Austin, TX</City>
+            <Distance>688</Distance>
+        </Links>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>144</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CR2032</id>
+        	<qty>280</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="7">
+        <Name>Fargo, MD</Name>
+        <Rate>300</Rate>
+        <rtd>8</rtd>
+        <Links>
+            <City>Seattle, WA</City>
+            <Distance>1426</Distance>
+        </Links>
+        <Links>
+            <City>Denver, CO</City>
+            <Distance>889</Distance>
+        </Links>
+        <Links>
+            <City>Chicago, IL</City>
+            <Distance>643</Distance>
+        </Links>
+        <InvItem>
+        	<id>ABC123</id>
+        	<qty>25</qty>
+        </InvItem>
+        <InvItem>
+        	<id>JBL3100</id>
+        	<qty>32</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XLK200B-C</id>
+        	<qty>82</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="8">
+        <Name>Austin, TX</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Santa Fe, NM</City>
+            <Distance>688</Distance>
+        </Links>
+        <Links>
+            <City>St. Louis, MO</City>
+            <Distance>825</Distance>
+        </Links>
+        <Links>
+            <City>New Orleans, LA</City>
+            <Distance>512</Distance>
+        </Links>
+        <InvItem>
+        	<id>RL123A</id>
+        	<qty>66</qty>
+        </InvItem>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>35</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SN-241-L-C</id>
+        	<qty>35</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="9">
+        <Name>St. Louis, MO</Name>
+        <Rate>300</Rate>
+        <rtd>12</rtd>
+        <Links>
+            <City>Chicago, IL</City>
+            <Distance>297</Distance>
+        </Links>
+        <Links>
+            <City>Nashville, TN</City>
+            <Distance>309</Distance>
+        </Links>
+        <Links>
+            <City>Austin, TX</City>
+            <Distance>825</Distance>
+        </Links>
+        <Links>
+            <City>Santa Fe, NM</City>
+            <Distance>1032</Distance>
+        </Links>
+        <Links>
+            <City>Denver, CO</City>
+            <Distance>851</Distance>
+        </Links>
+        <InvItem>
+        	<id>ABC123</id>
+        	<qty>70</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SR71-D</id>
+        	<qty>45</qty>
+        </InvItem>>
+        <InvItem>
+        	<id>PU238</id>
+        	<qty>82</qty>
+        </InvItem>
+    </Facility>
+	<Facility Id="10">
+	    <Name>Chicago, IL</Name>
+        <Rate>300</Rate>
+        <rtd>12</rtd>
+        <Links>
+            <City>St. Louis, MO</City>
+            <Distance>297</Distance>
+        </Links>
+        <Links>
+            <City>Fargo, ND</City>
+            <Distance>643</Distance>
+        </Links>
+        <Links>
+            <City>New York City, NY</City>
+            <Distance>790</Distance>
+        </Links>
+        <Links>
+            <City>Detroit, MI</City>
+            <Distance>282</Distance>
+        </Links>
+        <InvItem>
+        	<id>ABC123</id>
+        	<qty>60</qty>
+        </InvItem>
+        <InvItem>
+        	<id>E241i</id>
+        	<qty>64</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CT1928</id>
+        	<qty>20</qty>
+        </InvItem>
+        <InvItem>
+        	<id>RTF110</id>
+        	<qty>110</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XTP202</id>
+        	<qty>20</qty>
+        </InvItem>
+     	</Facility>	
+	<Facility Id="11">
+        <Name>New Orleans, LA</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Austin, TX</City>
+            <Distance>512</Distance>
+        </Links>
+        <Links>
+            <City>Nashville, TN</City>
+            <Distance>352</Distance>
+        </Links>
+        <Links>
+            <City>Atlanta, GA</City>
+            <Distance>469</Distance>
+        </Links>
+        <Links>
+            <City>Miami, FL</City>
+            <Distance>864</Distance>
+        </Links>
+        <InvItem>
+        	<id>MM35P</id>
+        	<qty>100</qty>
+        </InvItem>
+        <InvItem>
+        	<id>PU238</id>
+        	<qty>49</qty>
+        </InvItem>
+        <InvItem>
+        	<id>ZTF109</id>
+        	<qty>120</qty>
+        </InvItem>
+     </Facility>	
+	<Facility Id="12">
+        <Name>Nashville, TN</Name>
+        <Rate>300</Rate>
+        <rtd>8</rtd>
+        <Links>
+            <City>St. Louis, MO</City>
+            <Distance>309</Distance>
+        </Links>
+        <Links>
+            <City>New Orleans, LA</City>
+            <Distance>532</Distance>
+        </Links>
+        <Links>
+            <City>Norfolk, VA</City>
+            <Distance>706</Distance>
+        </Links>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>78</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XLK200B</id>
+        	<qty>250</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CR2032</id>
+        	<qty>366</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SN-241-L</id>
+        	<qty>16</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="13">
+        <Name>Detroit, MI</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Chicago, IL</City>
+            <Distance>282</Distance>
+        </Links>
+        <Links>
+            <City>New York City, NY</City>
+            <Distance>614</Distance>
+        </Links>
+        <Links>
+            <City>Boston, MA</City>
+            <Distance>719</Distance>
+        </Links>
+        <InvItem>
+        	<id>JBL3100</id>
+        	<qty>117</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SR71-D</id>
+        	<qty>8</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CT1928</id>
+        	<qty>72</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="14">
+        <Name>Boston, MA</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Detroit, MI</City>
+            <Distance>719</Distance>
+        </Links>
+        <Links>
+            <City>New York City, NY</City>
+            <Distance>215</Distance>
+        </Links>
+        <InvItem>
+        	<id>MM35P</id>
+        	<qty>47</qty>
+        </InvItem>
+        <InvItem>
+        	<id>PL123-C</id>
+        	<qty>83</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CT1928</id>
+        	<qty>65</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="15">
+        <Name>New York City, NY</Name>
+        <Rate>300</Rate>
+        <rtd>14</rtd>
+        <Links>
+            <City>Boston, MA</City>
+            <Distance>215</Distance>
+        </Links>
+        <Links>
+            <City>Detroit, MI</City>
+            <Distance>614</Distance>
+        </Links>
+        <Links>
+            <City>Chicago, IL</City>
+            <Distance>790</Distance>
+        </Links>
+        <Links>
+            <City>Norfolk, VA</City>
+            <Distance>363</Distance>
+        </Links>
+        <InvItem>
+        	<id>RL123A</id>
+        	<qty>12</qty>
+        </InvItem>
+        <InvItem>
+        	<id>CR2032</id>
+        	<qty>132</qty>
+        </InvItem>
+        <InvItem>
+        	<id>E241i</id>
+        	<qty>72</qty>
+        </InvItem>
+        <InvItem>
+        	<id>ZTF109</id>
+        	<qty>28</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="16">
+        <Name>Norfolk, VA</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>New York City, NY</City>
+            <Distance>363</Distance>
+        </Links>
+        <Links>
+            <City>Nashville, TN</City>
+            <Distance>706</Distance>
+        </Links>
+        <Links>
+            <City>Atlanta, GA</City>
+            <Distance>566</Distance>
+        </Links>
+        <InvItem>
+        	<id>MM35P</id>
+        	<qty>66</qty>
+        </InvItem>
+        <InvItem>
+        	<id>RL123A</id>
+        	<qty>50</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XLK200B</id>
+        	<qty>14</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="17">
+        <Name>Atlanta, GA</Name>
+        <Rate>300</Rate>
+        <rtd>10</rtd>
+        <Links>
+            <City>Norfolk, VA</City>
+            <Distance>566</Distance>
+        </Links>
+        <Links>
+            <City>New Orleans, LA</City>
+            <Distance>469</Distance>
+        </Links>
+        <Links>
+            <City>Miami, FL</City>
+            <Distance>663</Distance>
+        </Links>
+        <InvItem>
+        	<id>RX100-3</id>
+        	<qty>90</qty>
+        </InvItem>
+        <InvItem>
+        	<id>E241i</id>
+        	<qty>32</qty>
+        </InvItem>
+        <InvItem>
+        	<id>PU238</id>
+        	<qty>120</qty>
+        </InvItem>
+     </Facility>
+	<Facility Id="18">
+        <Name>Miami, FL</Name>
+        <Rate>300</Rate>
+        <rtd>12</rtd>
+        <Links>
+            <City>Atlanta, GA</City>
+            <Distance>663</Distance>
+        </Links>
+        <Links>
+            <City>New Orleans, LA</City>
+            <Distance>864</Distance>
+        </Links>
+        <InvItem>
+        	<id>MM35P</id>
+        	<qty>16</qty>
+        </InvItem>
+        <InvItem>
+        	<id>JBL3100</id>
+        	<qty>44</qty>
+        </InvItem>
+        <InvItem>SR71-D
+        	<id>CT1928</id>
+        	<qty>15</qty>
+        </InvItem>
+        <InvItem>
+        	<id>SN-241-L</id>
+        	<qty>28</qty>
+        </InvItem>
+        <InvItem>
+        	<id>XTP202</id>
+        	<qty>88</qty>
+        </InvItem>
+     </Facility>
+</FacMgr>
